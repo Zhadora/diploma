@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <title>Main</title>
+
+
+<style>body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 30%;
+  background-color: #4caf50;
+  border: none;
+  margin: 4px 2px;
+  padding: 16px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  transition-duration: .4s;
+  display: inline-block;
+  position: relative;
+  top: 150px;
+  left: 35%;
+}
+
+.button1 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #4caf50;
+}
+
+.button1:hover {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+.button2 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #008cba;
+}
+
+.button2:hover {
+  color: #fff;
+  background-color: #008cba;
+}
+
+.button3 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  color: #fff;
+  background-color: #f44336;
+}
+
+.button4 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {
+  background-color: #e7e7e7;
+}
+
+.button5 {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid #555;
+}
+
+.button5:hover {
+  color: #fff;
+  background-color: #555;
+}
+
+.bottom {
+  width: 100%;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+}
+
+ul {
+  width: 100%;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.image1 {
+  width: 20px;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+.image2 {
+  width: 20px;
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+}
+
+.image3 {
+  width: 20px;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+}
+
+li a, .dropbtn {
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #04aa6d;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  min-width: 160px;
+  z-index: 1;
+  background-color: #f9f9f9;
+  display: none;
+  position: absolute;
+  right: 0;
+  box-shadow: 0 8px 16px #0000001a;
+}
+
+.dropdown-content a {
+  color: #04aa6d;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+}
+
+</style>
+</head>
+<body>
+  <ul>
+  <li><a href="/mainrus.html" class="active">Главное меню</a></li>
+  <li><a href="/marketrus.html">Торговая площадка NFT</a></li>
+  <li class="dropdown" style="float: right">
+    <a href="javascript:void(0)" class="dropbtn" style="padding-bottom: 0"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" class="avatar">  <i class="fas fa-chevron-down"></i></a>
+    <div class="dropdown-content">
+      <a href="/profilerus.html">Профиль</a>
+      <a href="#">Инвентарь</a>
+      <a href="#">Друзья</a>
+      <a href="#">Настройки</a>
+      <a href="/login.html">Выйти</a>
+    </div>
+  </li>
+</ul>
+ 
+<button class="button button1" onclick="location.href='play.html'">Одиночная игра</button><br>
+<button class="button button3" onclick="location.href='play.html'">Игра по сети</button><br>
+<button class="button button2" onclick="location.href='training.html'">Обучение</button><br>
+
+
+
+<a href="/mainkz.html"><img class="image1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/1200px-Flag_of_Kazakhstan.svg.png"></a>
+<a href="/mainrus.html"><img class="image2" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png"></a>
+<a href="/main.html"><img class="image3" src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg"></a>
+<div class="bottom">lololololo</div>
+<script src="/mainrus.fc962b02.js"></script></body>
+</html>
